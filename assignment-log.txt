@@ -1,0 +1,96 @@
+Backend Developer Internship Assignment Log
+Candidate: Shashidhar D
+Date: March 2026
+
+Project Overview
+----------------
+This project implements a secure and scalable REST API using Node.js and Express.
+The system includes authentication using JWT, role-based access control, and CRUD
+operations for managing tasks. A simple frontend UI was also created using Vanilla
+JavaScript to interact with the APIs.
+
+Tech Stack
+----------
+Backend:
+Node.js
+Express.js
+MongoDB
+Mongoose
+
+Security:
+bcrypt (password hashing)
+JWT (authentication)
+
+Frontend:
+HTML
+CSS
+Vanilla JavaScript
+
+API Testing & Documentation:
+Hoppscotch
+Swagger UI
+
+Completed Backend Features
+--------------------------
+✔ User registration API
+✔ User login API
+✔ Password hashing using bcrypt
+✔ JWT token authentication
+✔ Role-based access control (user / admin)
+✔ CRUD APIs for Task entity
+✔ REST API versioning (/api/v1)
+✔ Input validation and error handling
+✔ MongoDB database schema using Mongoose
+✔ Swagger API documentation
+
+Frontend Features
+-----------------
+✔ User registration form
+✔ User login form
+✔ JWT protected dashboard
+✔ Create new task
+✔ View task list
+✔ Delete task
+✔ Logout functionality
+✔ Error and success message handling
+
+Project Structure
+-----------------
+config/
+controllers/
+middleware/
+models/
+routes/
+utils/
+frontend/
+
+Testing
+-------
+The APIs were tested using:
+- Hoppscotch
+- Swagger UI
+- Browser frontend interface
+
+All major flows were verified:
+
+✔ Register user
+✔ Login user
+✔ Create task
+✔ View tasks
+✔ Delete task
+✔ Logout user
+
+Status
+------
+All backend APIs and frontend interactions are working correctly.
+
+Future Improvements
+-------------------
+Possible improvements for scalability include:
+- Redis caching
+- Docker containerization
+- Microservices architecture
+- Logging and monitoring
+- Load balancing
+
+End of Assignment Log
